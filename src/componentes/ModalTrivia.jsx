@@ -55,10 +55,8 @@ function ModalTrivia() {
         <div>
             
             <div className=" flex items-center justify-center z-50  bg-opacity-95 mt-6 mb-2">
-                <div className="bg-gray-300 m-4 p-6  border-red-500 rounded-xl ">
-                    <h3 className="text-center font-extrabold text-xl mb-4 ">
-                        Trivia Manual del buen Conductor
-                    </h3>
+                <div className="bg-gray-100 m-4 p-6  border-red-500 rounded-xl ">
+ 
                     <p className="mb-4 font-bold">
                         {data[indiceActivo]?.pregunta}
                     </p>
@@ -72,7 +70,7 @@ function ModalTrivia() {
                                     : respuestaSeleccionada === opcion &&
                                     !respuestaCorrecta
                                     ? 'bg-red-500 text-white'
-                                    : 'bg-gray-300'
+                                    : 'bg-gray-100'
                             }`}
                             onClick={() => manejarSeleccion(opcion)}
                         >
