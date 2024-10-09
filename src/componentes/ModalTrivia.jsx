@@ -60,7 +60,7 @@ function ModalTrivia() {
             {opciones.map((opcion, index) => (
             <p
                 key={index}
-                className={`p-2  hover:bg-gray-200 rounded-lg ${
+                className={`p-2  rounded-lg ${
                 respuestaSeleccionada === opcion && respuestaCorrecta ? 'bg-green-500 text-white' :
                 respuestaSeleccionada === opcion && !respuestaCorrecta ? 'bg-red-500 text-white' : 
                 'bg-gray-300'
