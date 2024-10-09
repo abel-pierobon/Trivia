@@ -1,13 +1,14 @@
+import { useState } from 'react'
 import './App.css'
 import ModalTrivia from './componentes/ModalTrivia'
-import './index.css'; //
+import Main from './componentes/Main'
 
 function App() {
 
   return (
-    <>
-      <ModalTrivia />
-    </>
+    <div >
+      <Main />
+    </div>
   )
 }
 
